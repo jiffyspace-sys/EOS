@@ -22,7 +22,7 @@ ENV EOS_DIR="/opt/eos"
 ENV EOS_DATA_DIR="/data"
 ENV EOS_CACHE_DIR="${EOS_DATA_DIR}/cache"
 ENV EOS_OUTPUT_DIR="${EOS_DATA_DIR}/output"
-ENV EOS_CONFIG_DIR="${EOS_DATA_DIR}/config"
+ENV EOS_CONFIG_DIR="/config/eos"
 ENV MPLCONFIGDIR="${EOS_DATA_DIR}/mplconfigdir"
 
 # Overwrite when starting the container in a production environment
