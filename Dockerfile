@@ -95,3 +95,4 @@ CMD ["python", "-m", "akkudoktoreos.server.eos", "--host", "0.0.0.0", "--run_as_
 # Persistent data
 # (Not recognized by home assistant add-on management, but there we have /data anyway)
 VOLUME ["${EOS_DATA_DIR}"]
+VOLUME ["/config/eos"]
