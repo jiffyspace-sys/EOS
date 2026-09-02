@@ -39,7 +39,7 @@ ports_description:
   8504/tcp: "EOSdash dashboard server"
 
 # EOSdash interface (if not ingress)
-webui: "http://192.168.178.49:8504"
+#webui: "http://192.168.178.49:8504"
 
 # EOSdash by ingress
 ingress: false
