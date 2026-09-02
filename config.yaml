@@ -9,7 +9,7 @@ name: "Akkudoktor-EOS"
 version: "0.3.0.dev2608221553448643"
 slug: "eos"
 description: "Akkudoktor-EOS add-on"
-url: "https://github.com/Akkudoktor-EOS/EOS"
+url: "https://github.com/jiffyspace-sys/EOS"
 
 arch:
   - aarch64
@@ -32,17 +32,17 @@ homeassistant_api: true
 # Ports exposed by the add-on
 ports:
   8503/tcp: 8503
-#  8504/tcp: 8504
+  8504/tcp: 8504
 
 ports_description:
   8503/tcp: "EOS REST server"
-#  8504/tcp: "EOSdash dashboard server"
+  8504/tcp: "EOSdash dashboard server"
 
 # EOSdash interface (if not ingress)
 # webui: "http://[HOST]:[PORT:8504]"
 
 # EOSdash by ingress
-ingress: true
+ingress: false
 ingress_port: 8504
 ingress_stream: true
 panel_icon: "mdi:web"
